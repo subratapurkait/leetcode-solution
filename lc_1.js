@@ -37,7 +37,7 @@ var twoSum = function(nums, target) {
         
 //         console.log(map.has(complement))
         if(map.has(complement))
-            return [map.get(complement), i] + "h";
+            return [map.get(complement), i];
            
         console.log(nums[i], i)
         map.set(nums[i], i);
